@@ -12,6 +12,19 @@ namespace GenericSportClub
         public string Equipo { get; set; }
         public double Alto { get; set; }
         public double Peso { get; set; }
+
+        public Atleta()
+        {
+
+        }
+
+        public string ListarAtletas()
+        {
+            return "Todos los atletas";
+        }
+
     }
+
+    
 
 }
